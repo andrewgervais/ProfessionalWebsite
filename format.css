@@ -338,6 +338,7 @@ body{
     }
     .home-template .site-nav{
         position:relative
+        
     }
 }
 .site-header-background{
@@ -345,7 +346,8 @@ body{
     margin-top:64px;
     padding-bottom:12px;
     color:#fff;
-    background:#255C47 no-repeat 50%;
+    background:#fff;
+    /*background:#255C47 no-repeat 50%;*/
     /*background:#090a0b no-repeat 50%;*/
     background-size:cover
 }
@@ -379,14 +381,20 @@ body{
     padding:6vw 3vw;
     min-height:200px;
     max-height:340px
+    
+    
 }
 .site-title{
     z-index:10;
     margin:0 0 0 -2px;
     padding:0;
+    color:#255C47;
     font-size:5rem;
     line-height:1em;
     font-weight:600
+
+    
+    
 }
 .site-logo{
     max-height:55px
@@ -408,10 +416,14 @@ body{
 }
 .site-home-header .site-header-content{
     padding:5vw 3vw 6vw
+    
+    
 }
 .site-home-header .site-title{
     font-size:5.5rem;
     text-align:center
+    
+    
 }
 .site-home-header .site-description{
     font-size:2.2rem;
@@ -423,6 +435,7 @@ body{
     padding:12vw 0 20px;
     min-height:200px;
     max-height:600px
+    
 }
 .site-archive-header .no-image{
     padding-top:0;
@@ -442,11 +455,13 @@ body{
 @media(max-width:900px){
     .site-header-content{
         padding-bottom:9vw
+        
     }
 }
 @media(max-width:500px){
     .site-home-header .site-title{
         font-size:3.2rem
+        
     }
     .site-home-header .site-description{
         font-size:1.8rem
@@ -456,24 +471,29 @@ body{
     }
 }
 .site-nav-main{
+    width: 100vw;
     position:fixed;
     top:0;
     right:0;
     left:0;
     z-index:1000;
-    background:#090a0b
+    background:#255C47;
+    /*added*/
 }
 .site-nav{
+    width: 100vw;
     position:relative;
     z-index:100;
     justify-content:space-between;
     align-items:flex-start;
     height:64px;
+    background:#255C47;
     font-size:1.3rem
 }
 .site-nav,.site-nav-left{
     display:flex;
     overflow-y:hidden
+   
 }
 .site-nav-left{
     flex:1 0 auto;
@@ -487,6 +507,8 @@ body{
     text-transform:uppercase;
     white-space:nowrap;
     -ms-overflow-scrolling:touch
+    
+    
 }
 @media(max-width:700px){
     .site-header-background:not(.responsive-header-img) .site-nav:after,.site-nav-main .site-nav:after{
@@ -497,7 +519,7 @@ body{
         width:40px;
         height:100%;
         right:0;
-        background:linear-gradient(90deg,rgba(9,10,11,0) 0,#090a0b)
+        background:#255C47;
     }
     .nav li:last-of-type{
         padding-right:20px
@@ -531,6 +553,7 @@ body{
 .site-nav-content{
     position:relative;
     align-self:flex-start
+    
 }
 .nav{
     position:absolute;
@@ -540,11 +563,13 @@ body{
     padding:0;
     list-style:none;
     transition:all 1s cubic-bezier(0.19,1,0.22,1)
+    
 }
 .nav li{
     display:block;
     margin:0;
     padding:0
+    
 }
 .nav li a{
     position:relative;
@@ -553,6 +578,7 @@ body{
     color:#fff;
     opacity:.8;
     transition:opacity .35s ease-in-out
+    
 }
 .nav li a:hover{
     text-decoration:none;
@@ -565,7 +591,7 @@ body{
     bottom:8px;
     left:12px;
     height:1px;
-    background:#fff;
+    background:#255C47;
     opacity:.25;
     transition:all .35s ease-in-out
 }
@@ -1738,7 +1764,8 @@ body{
 }
 .read-next-card-header h3{
     margin:0;
-    color:rgba(255,255,255,.6);
+    color:#255C47;
+    /*changed*/
     font-size:1.2rem;
     line-height:1em;
     font-weight:300;
@@ -1746,7 +1773,8 @@ body{
     text-transform:uppercase
 }
 .read-next-card-header h3 a{
-    color:#fff;
+    color:#255C47;
+    /*changed*/
     font-weight:500;
     text-decoration:none;
     opacity:.8
@@ -2110,7 +2138,8 @@ body{
     padding-left:4px
 }
 .no-image .author-header-content .author-bio,.no-image .author-header-content .author-meta{
-    color:#738a94;
+    color:#255C47;
+    /*changed*/
     opacity:1
 }
 .author-social-link a{
