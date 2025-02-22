@@ -139,6 +139,8 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body,html{
+    margin: 0;
+    padding: 0;
     overflow-x:hidden
 }
 body{
@@ -323,7 +325,8 @@ body{
 }
 .outer{
     position:relative;
-    padding:0 5vw
+    padding:0;
+    margin: 0;
 }
 .inner{
     margin:0 auto;
@@ -381,6 +384,7 @@ body{
     padding:6vw 3vw;
     min-height:200px;
     max-height:340px
+
     
     
 }
@@ -410,9 +414,11 @@ body{
 }
 .site-home-header{
     z-index:1000
+    
 }
 .site-home-header .site-header-background{
     margin-top:0
+
 }
 .site-home-header .site-header-content{
     padding:5vw 3vw 6vw
@@ -478,6 +484,8 @@ body{
     left:0;
     z-index:1000;
     background:#255C47;
+    margin:0;
+    padding:0;
     /*added*/
 }
 .site-nav{

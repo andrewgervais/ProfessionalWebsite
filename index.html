@@ -3,10 +3,69 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    
-    
     <title>Andrew Gervais</title>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .site-nav-main {
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: #255C47;
+            margin: 0;
+            padding: 0;
+        }
+        .site-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+            background: #255C47;
+            margin: 0;
+            padding: 0 20px;
+        }
+        .site-nav-left {
+            display: flex;
+            align-items: center;
+        }
+        .site-nav-logo {
+            color: #fff;
+            font-size: 1.7rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .site-nav-content {
+            display: flex;
+            align-items: center;
+        }
+        .nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav li {
+            margin: 0 10px;
+        }
+        .nav li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.3rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        .nav li a:hover {
+            opacity: 1;
+        }
+    </style>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,35 +84,32 @@
 <header class="site-home-header">
     <div class="outer site-header-background no-image">
 
-        <div class="inner"><nav class="site-nav">
-            <div class="site-nav-left">
+        <div class="inner">
+            <nav class="site-nav">
+                <div class="site-nav-left">
         
-                <a class="site-nav-logo" href="index.html">Andrew Gervais</a>
+                    <a class="site-nav-logo" href="index.html">Andrew Gervais</a>
         
         
-            <div class="site-nav-content">
-                <ul class="nav" role="menu">
+                    <div class="site-nav-content">
+                        <ul class="nav" role="menu">
                 
-                    <li class="nav-home" role="menuitem"><a href="about.html">About Me</a></li>
+                            <li class="nav-home" role="menuitem"><a href="about.html">About Me</a></li>
                 
-                    <li class="nav-home" role="menuitem"><a href="projects.html">Projects</a></li>
+                            <li class="nav-home" role="menuitem"><a href="projects.html">Projects</a></li>
                 
-                    <li class="nav-home" role="menuitem"><a href="contact.html">Contact Information</a></li>
+                            <li class="nav-home" role="menuitem"><a href="contact.html">Contact Information</a></li>
                 
-                    <li class="nav-home" role="menuitem"><a href="blog.html">Blog (Coming Soon)</a></li>
+                            <li class="nav-home" role="menuitem"><a href="blog.html">Blog (Coming Soon)</a></li>
                 
-                </ul>
-            </div>
+                        </ul>
+                    </div>
         
-        </div>
-    </nav>
+                </div>
+            </nav>
 
-    <div class="site-header-content">
-                <h1 class="site-title">
-                    
-                        Andrew Gervais
-                    
-                </h1>
+            <div class="site-header-content">
+                <h1 class="site-title">Andrew Gervais</h1>
                 <h2 class="site-description">Hello, World! Welcome to my website.</h2>
 
             </div>
@@ -81,7 +137,6 @@
     
                 <header class="post-card-header">
                     
-
                     <h2 class="post-card-title">Hey! Welcome to my website.</h2>
                 </header>
     
